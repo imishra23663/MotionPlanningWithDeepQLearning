@@ -23,7 +23,6 @@ start_pc = [-0, 0, 0.05, 0, 0, 0]
 goal_pc = [0.7, -0.5, 0.05, 0, 0, 0]
 simulation.create(start_pc, goal_pc)
 gamma = 0.99
-time.sleep(5    )
 agent = Robot(simulation, gamma)
 
 if len(sys.argv) > 2 and sys.argv[2] == 'train':

@@ -97,7 +97,7 @@ class Simulation:
         :return:
         """
         print "Creating the Simulator"
-        object_dir = "/home/jeet/workspace/Working-DQMP/DeepQMotionPlanning/"
+        object_dir = "./"
         self.start_pc = start_pc
         self.goal_pc = goal_pc
         coordinates.setWorldModel(self.world)
